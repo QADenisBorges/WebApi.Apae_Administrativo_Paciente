@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{A24E7AC7-BB7B-400A-ACCF-5FACAB83B1F3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A24E7AC7-BB7B-400A-ACCF-5FACAB83B1F3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{92FDD881-3E3D-4D89-B2D7-7701018D6311}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{92FDD881-3E3D-4D89-B2D7-7701018D6311}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Repositorio", "3-Repositorio", "{6C4EF2C3-A9B1-4A1E-8ADD-B0B44D640F3B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorio", "Repositorio", "{6C4EF2C3-A9B1-4A1E-8ADD-B0B44D640F3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apae_Administrativo_Paciente.Domain", "src\Apae_Administrativo_Paciente.Domain\Apae_Administrativo_Paciente.Domain.csproj", "{5FB1938C-BD13-484C-A41F-690A9373AEC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apae_Administrativo_Paciente.Domain", "src\Apae_Administrativo_Paciente.Domain\Apae_Administrativo_Paciente.Domain.csproj", "{5FB1938C-BD13-484C-A41F-690A9373AEC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apae_Administrativo_Paciente.Repositorio", "src\Apae_Administrativo_Paciente.Repositorio\Apae_Administrativo_Paciente.Repositorio.csproj", "{81557EEA-ACFE-4CF0-B1D2-9396CEC1F1BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apae_Administrativo_Paciente.Repositorio", "src\Apae_Administrativo_Paciente.Repositorio\Apae_Administrativo_Paciente.Repositorio.csproj", "{81557EEA-ACFE-4CF0-B1D2-9396CEC1F1BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apae_Administrativo_PacienteApplication", "src\Apae_Administrativo_PacienteApplication\Apae_Administrativo_PacienteApplication.csproj", "{4EB700A4-9696-4AD5-AD98-5F9F7A39C3B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apae_Administrativo_PacienteApplication", "src\Apae_Administrativo_PacienteApplication\Apae_Administrativo_PacienteApplication.csproj", "{4EB700A4-9696-4AD5-AD98-5F9F7A39C3B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apae_Administrativo_Paciente.WebApi", "src\Apae_Administrativo_Paciente.WebApi\Apae_Administrativo_Paciente.WebApi.csproj", "{7FE46A35-6EEF-42FE-82D3-79BED701CAF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apae_Administrativo_Paciente.WebApi", "src\Apae_Administrativo_Paciente.WebApi\Apae_Administrativo_Paciente.WebApi.csproj", "{7FE46A35-6EEF-42FE-82D3-79BED701CAF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{9FBF21C4-4CF1-4359-88BE-BFD5857D51F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,7 @@ Global
 		{5FB1938C-BD13-484C-A41F-690A9373AEC3} = {92FDD881-3E3D-4D89-B2D7-7701018D6311}
 		{81557EEA-ACFE-4CF0-B1D2-9396CEC1F1BD} = {6C4EF2C3-A9B1-4A1E-8ADD-B0B44D640F3B}
 		{4EB700A4-9696-4AD5-AD98-5F9F7A39C3B9} = {A24E7AC7-BB7B-400A-ACCF-5FACAB83B1F3}
+		{7FE46A35-6EEF-42FE-82D3-79BED701CAF5} = {9FBF21C4-4CF1-4359-88BE-BFD5857D51F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FFCBEAAB-DDD2-447C-AABC-191A2C8789BC}
